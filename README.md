@@ -12,7 +12,7 @@ This application was built using:
   HTML5,
   CSS,
   
-# Front-End
+# Back-End
   Firebase API 
   
   
