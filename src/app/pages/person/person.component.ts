@@ -40,7 +40,7 @@ export class PersonComponent implements OnInit {
       }  
 
       let request : Observable<any>;     
-
+       //Create Modal
       Swal.fire({
         title: 'Wait',
         text:'Saving..', 
@@ -48,8 +48,7 @@ export class PersonComponent implements OnInit {
         allowOutsideClick:false               
       });
 
-      Swal.showLoading();
-      
+      Swal.showLoading();      
       //Create/Update 
       if (this.person.id) {
         request = this.personServices.UpdatePerson(this.person);               
